@@ -1,0 +1,91 @@
+baseurl = "https://ruturajx.github.io/"
+languageCode = "en-us"
+title = "Welcome to Ruturaj Eksambekar's Portfolio Website"
+theme = "hugo-creative-theme"
+googleAnalytics = ""
+
+[params]
+
+	# You can use Markdown syntax for urls [text](//url.to/source) for
+	# most longer texts.
+
+	# All icons using Fontawesome's icon font. Look at http://fontawesome.io/icons/
+	# for more icons. The icons are represented by their corresponding
+	# CSS class.
+
+	# All projects of the portfolio are defined in their own files.
+	# You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
+	# folder into the 'data' directory at the root of this Hugo site.
+	# For more information take a look at the README.
+
+	# To provide some metadata for search engines feel free to add some
+	# information about you and your website.
+	name = "Ruturaj Eksambekar"
+	description = "Portfolio Website of Ruturaj Eksambekar"
+
+	# The path must be relative to the static folder
+	favicon = "pokemon.ico"
+
+
+	# Navigation
+	[params.navigation]
+		brand = "Ruturaj Eksambekar"
+
+		[params.navigation.links]
+			about     = "About"
+			services  = "Services"
+			portfolio = "Portfolio"
+			resume    = "Resume"
+			contact   = "Contact"
+
+
+	# Hero section
+	[params.hero]
+		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+		slogan     = "Researcher | Designer | Developer"
+		#subtitle   = "[Lorem](//google.com) ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis nesciunt consequatur ut nihil #voluptatem fugiat eos eveniet alias in veniam?"
+		buttonText = "Know more"
+
+
+	# About section
+	[params.about]
+		headline    = "About Me"
+		description = "I am currently pursuing Masters in Human Computer Interaction, Interactive Computing Track at Georgia Institute of Technology. I have completed my Bachelors of Engineering in Computer Engineering from Maharashtra Institute of Technology, Pune. Blah blah blah!!!..."
+		buttonText  = "My Work"
+
+
+
+    # Portfolio modals
+	[params.portfolio.modal]
+        client = "Client"
+        date = "Date"
+        category = "Category"
+        buttonText = "Close"
+
+
+	# Resume Section
+	[params.resume]
+		headline = "Resume"
+		buttonText  = "Download"
+		link = "/resources/Ruturaj_Resume.pdf"
+
+
+	# Contact section
+	[params.contact]
+		headline = "Let's Get In Touch!"
+		phone = "+919175087745"
+		email = "ruturajeks@gmail.com"
+		facebook = "https://www.facebook.com/ruturaj.eksambekar"
+		github = "https://github.com/ruturajx"
+		linkedin = "https://www.linkedin.com/in/ruturaj-eksambekar-59474aa9/"
+
+	# Google Maps section
+	# [params.location]
+	# 	latitude  = "34.007850"
+	# 	longitude = "-118.499305"
+	# 	maps_api_key = ""
+
+
+	# Footer section
+	[params.footer]
+		trademark = "© 2017 Ruturaj Eksambekar - All rights reserved" 

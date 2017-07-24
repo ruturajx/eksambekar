@@ -1,0 +1,23 @@
+{{ "<!-- RESUME -->" | safeHTML }}
+<section class="bg-dark" id="resume">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                {{ with .Site.Params.resume.headline }}
+                    <h2 class="section-heading">{{ . }}</h2>
+                {{ end }}
+                {{ if and .Site.Params.resume.headline .Site.Params.resume.description }}
+                    <hr class="light">
+                {{ end }}
+                {{ with .Site.Params.resume.description }}
+                    <p class="text-faded">{{ . | markdownify }}</p>
+                {{ end }}
+                {{ with .Site.Params.resume.buttonText }}
+                <p></p>
+                <p></p>
+                    <a href="/resources/Ruturaj_Resume.pdf" target="_blank" class="btn btn-default btn-xl">{{ . }}</a>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</section>
