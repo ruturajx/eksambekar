@@ -50,7 +50,7 @@ googleAnalytics = ""
 	# About section
 	[params.about]
 		headline    = "About Me"
-		description = "I am currently pursuing Masters in Human Computer Interaction, Interactive Computing Track at Georgia Institute of Technology. I have completed my Bachelors of Engineering in Computer Engineering from Maharashtra Institute of Technology, Pune. Blah blah blah!!!!!!!...."
+		description = "I am currently pursuing Masters in Human Computer Interaction, Interactive Computing Track at Georgia Institute of Technology. I have completed my Bachelors of Engineering in Computer Engineering from Maharashtra Institute of Technology, Pune."
 		buttonText  = "My Work"
 
 
