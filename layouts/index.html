@@ -4,7 +4,7 @@
         {{ partial "head.html" . }}
     </head>
     <body id="page-top">
-        {{ if or .Site.Params.navigation.links.about .Site.Params.navigation.links.portfolio .Site.Params.navigation.links.resume .Site.Params.navigation.links.contact }}
+        {{ if or .Site.Params.navigation.links.portfolio .Site.Params.navigation.links.about .Site.Params.navigation.links.resume .Site.Params.navigation.links.contact }}
             {{ partial "nav.html" . }}
         {{ end }}
 
@@ -12,12 +12,12 @@
             {{ partial "hero.html" . }}
         {{ end }}
 
-        {{ if .Site.Params.about }}
-            {{ partial "about.html" . }}
+        {{ if .Site.Data.projects }}
+        {{ partial "portfolio.html" . }}
         {{ end }}
 
-        {{ if .Site.Data.projects }}
-            {{ partial "portfolio.html" . }}
+        {{ if .Site.Params.about }}
+            {{ partial "about.html" . }}
         {{ end }}
 
         {{ if .Site.Params.resume }}

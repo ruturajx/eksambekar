@@ -24,7 +24,7 @@ googleAnalytics = ""
 	description = "Portfolio Website of Ruturaj Eksambekar"
 
 	# The path must be relative to the static folder
-	favicon = "pokemon.ico"
+	favicon = "ruturaj.ico"
 
 
 	# Navigation
@@ -44,7 +44,7 @@ googleAnalytics = ""
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
 		slogan     = "Researcher | Designer | Developer"
 		#subtitle   = "[Lorem](//google.com) ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis nesciunt consequatur ut nihil #voluptatem fugiat eos eveniet alias in veniam?"
-		buttonText = "Know more"
+		buttonText = "My Work"
 
 
 	# About section
